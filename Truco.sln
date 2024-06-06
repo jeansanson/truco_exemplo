@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Truco.Core", "Truco.Core\Truco.Core.csproj", "{9A848B71-13CB-4DB5-9114-8946274ED69E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Truco.Core.Tests", "Truco.Core.Tests\Truco.Core.Tests.csproj", "{3C0F79EE-217F-4830-92C0-D00D961443F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A848B71-13CB-4DB5-9114-8946274ED69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A848B71-13CB-4DB5-9114-8946274ED69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A848B71-13CB-4DB5-9114-8946274ED69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A848B71-13CB-4DB5-9114-8946274ED69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0F79EE-217F-4830-92C0-D00D961443F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0F79EE-217F-4830-92C0-D00D961443F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0F79EE-217F-4830-92C0-D00D961443F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0F79EE-217F-4830-92C0-D00D961443F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65C0B9D8-2FEC-40D3-AFB4-A6922BFB829E}
+	EndGlobalSection
+EndGlobal
