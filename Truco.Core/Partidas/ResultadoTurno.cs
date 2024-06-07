@@ -1,4 +1,4 @@
-﻿namespace Truco.Core.Cartas
+﻿namespace Truco.Core.Partidas
 {
     public class ResultadoTurno
     {

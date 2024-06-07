@@ -1,5 +1,6 @@
-using Truco.Core.Cartas;
 using Truco.Core.Equipes;
+using Truco.Core.Eventos;
+using Truco.Core.Partidas;
 using Xunit;
 
 namespace Truco.Core.Tests
@@ -17,7 +18,7 @@ namespace Truco.Core.Tests
             Convidado advDois = new("Carlos");
             Equipe adversarios = new("Vai lorant", advUm, advDois);
 
-            Partida partida = new(aliados, adversarios);
+            Partida partida = new(aliados, adversarios, new EventosExternosBase());
 
             // verificar se o setup foi realizado com sucesso
         }

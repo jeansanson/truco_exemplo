@@ -1,4 +1,7 @@
-﻿namespace Truco.Core.Cartas
+﻿using Truco.Core.Equipes;
+using Truco.Core.Partidas;
+
+namespace Truco.Core.Cartas
 {
     public class Baralho : Queue<Carta>
     {

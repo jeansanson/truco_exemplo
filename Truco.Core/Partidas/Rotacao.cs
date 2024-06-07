@@ -1,7 +1,8 @@
 ﻿using System.Runtime.InteropServices;
+using Truco.Core.Cartas;
 using Truco.Core.Equipes;
 
-namespace Truco.Core.Cartas
+namespace Truco.Core.Partidas
 {
     public class Rotacao
     {
@@ -11,6 +12,7 @@ namespace Truco.Core.Cartas
 
         public Rotacao(Partida partida)
         {
+            ValidaModosConflitantes(partida);
             switch (partida.Modo)
             {
                 case ModoEquipe.Dupla:
@@ -43,6 +45,12 @@ namespace Truco.Core.Cartas
         Jogador Atual()
         {
             return _atual;
+        }
+
+        private static void ValidaModosConflitantes(Partida partida)
+        {
+            if (partida.Aliados.Modo == partida.Adversarios.Modo) return;
+            throw new InvalidOperationException("Quantidade de jogadores dos times não podem ser diferentes.");
         }
 
         private Jogador PreverProximo(Jogador atual)
